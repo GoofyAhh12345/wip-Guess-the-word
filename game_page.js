@@ -35,7 +35,7 @@ question_turn="player1";
 answer_turn="player2";
 function check() {
     get_answer=document.getElementById("input_check_box").value;
-    answer=get_answer.toLowercase();
+    answer=get_answer.toLowerCase();
     console.log("answer in lowercase" + answer);
     if(answer == word) {
         if(answer_turn = "player1") {
